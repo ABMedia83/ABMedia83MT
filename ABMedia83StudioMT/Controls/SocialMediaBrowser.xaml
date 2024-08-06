@@ -1,0 +1,26 @@
+﻿<local:StudioControl x:Class="ABMedia83StudioMT.Controls.SocialMediaBrowser"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:c="clr-namespace:Albert.Win32.Controls;assembly=Albert.Win32"
+			 xmlns:web="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
+			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ABMedia83StudioMT.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="auto" />
+			<RowDefinition />
+		</Grid.RowDefinitions>
+		<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+			<ComboBox x:Name="cmbSites" Width="150" ItemTemplate="{StaticResource basicList}" />
+
+			<c:PushButton Tag="GoBack" Click="Web_Click" Width="45" Height="45" ToolTip="Go Back" Content="&lt;" />
+			<c:PushButton Tag="GoForward" Click="Web_Click" Width="45" Height="45" ToolTip="Go Forward" Content="&gt;" />
+			<c:PushButton Tag="Refresh" Click="Web_Click" Width="45" Height="45" ToolTip="Refresh" Content="R" />
+		</StackPanel>
+		<web:WebView2 x:Name="webBrowser" Grid.Row="1" Source="https://youtube.com" />
+
+	</Grid>
+</local:StudioControl>

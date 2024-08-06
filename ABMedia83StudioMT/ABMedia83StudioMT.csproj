@@ -1,11 +1,117 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
+  <PropertyGroup Label="Globals">
+    <WebView2DispatchAdapterNamespace>ABMedia83StudioMT </WebView2DispatchAdapterNamespace>
+  </PropertyGroup>
+
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net8.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+    <PackageIcon>ABMedia83Studio_2.png</PackageIcon>
+    <ApplicationIcon>ABMediau83Studio2.ico</ApplicationIcon>
+    <PackageTags>ABMedia83, AB, Programming </PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="ABMediau83Studio2.ico" />
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+    <PackageReference Include="AvalonEdit" Version="6.3.0.90" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.2592.51" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Albert.Win32\Albert.Win32.csproj" />
+    <ProjectReference Include="..\Albert\Albert.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\AppBar\about.png" />
+    <Resource Include="Resources\AppBar\add.png" />
+    <Resource Include="Resources\AppBar\aHubWide.png" />
+    <Resource Include="Resources\AppBar\Area.png" />
+    <Resource Include="Resources\AppBar\areaRoad.png" />
+    <Resource Include="Resources\AppBar\back.png" />
+    <Resource Include="Resources\AppBar\bold.png" />
+    <Resource Include="Resources\AppBar\Browser.png" />
+    <Resource Include="Resources\AppBar\bullets.png" />
+    <Resource Include="Resources\AppBar\camera.png" />
+    <Resource Include="Resources\AppBar\cancel.png" />
+    <Resource Include="Resources\AppBar\centeralign.png" />
+    <Resource Include="Resources\AppBar\circle.png" />
+    <Resource Include="Resources\AppBar\clear.png" />
+    <Resource Include="Resources\AppBar\clock.png" />
+    <Resource Include="Resources\AppBar\code.bmp" />
+    <Resource Include="Resources\AppBar\codeicon.png" />
+    <Resource Include="Resources\AppBar\colorLabIcon.png" />
+    <Resource Include="Resources\AppBar\colorpicker.png" />
+    <Resource Include="Resources\AppBar\colorpicker2.png" />
+    <Resource Include="Resources\AppBar\colorpicker3.png" />
+    <Resource Include="Resources\AppBar\earthcolors.png" />
+    <Resource Include="Resources\AppBar\edit.png" />
+    <Resource Include="Resources\AppBar\erase.png" />
+    <Resource Include="Resources\AppBar\export.png" />
+    <Resource Include="Resources\AppBar\file.png" />
+    <Resource Include="Resources\AppBar\forward.png" />
+    <Resource Include="Resources\AppBar\goback.png" />
+    <Resource Include="Resources\AppBar\icons.png" />
+    <Resource Include="Resources\AppBar\Import.png" />
+    <Resource Include="Resources\AppBar\Italic.png" />
+    <Resource Include="Resources\AppBar\leftalign.png" />
+    <Resource Include="Resources\AppBar\line.png" />
+    <Resource Include="Resources\AppBar\marker.png" />
+    <Resource Include="Resources\AppBar\New.png" />
+    <Resource Include="Resources\AppBar\numberlist.png" />
+    <Resource Include="Resources\AppBar\ok.png" />
+    <Resource Include="Resources\AppBar\paint.png" />
+    <Resource Include="Resources\AppBar\pen.png" />
+    <Resource Include="Resources\AppBar\pencil.png" />
+    <Resource Include="Resources\AppBar\rectangle.png" />
+    <Resource Include="Resources\AppBar\refresh.png" />
+    <Resource Include="Resources\AppBar\remove.png" />
+    <Resource Include="Resources\AppBar\rightalign.png" />
+    <Resource Include="Resources\AppBar\road.png" />
+    <Resource Include="Resources\AppBar\save.png" />
+    <Resource Include="Resources\AppBar\saveas.png" />
+    <Resource Include="Resources\AppBar\search.png" />
+    <Resource Include="Resources\AppBar\settings.png" />
+    <Resource Include="Resources\AppBar\share.png" />
+    <Resource Include="Resources\AppBar\showNavBar.png" />
+    <Resource Include="Resources\AppBar\SkinColors.png" />
+    <Resource Include="Resources\AppBar\star.png" />
+    <Resource Include="Resources\AppBar\start.png" />
+    <Resource Include="Resources\AppBar\status.png" />
+    <Resource Include="Resources\AppBar\textedit.png" />
+    <Resource Include="Resources\AppBar\trace.png" />
+    <Resource Include="Resources\AppBar\triangle.png" />
+    <Resource Include="Resources\AppBar\underline.png" />
+    <Resource Include="Resources\AppBar\writericon.png" />
+    <Resource Include="Resources\Images\ABLogo.png" />
+    <Resource Include="Resources\Images\ABMedia83Studio_2.png" />
+    <Resource Include="Resources\Images\ABPaint_1.png" />
+    <Resource Include="Resources\Images\ABPaint_2.png" />
+    <Resource Include="Resources\Images\ABPaint_3.png" />
+    <Resource Include="Resources\Images\ABPipeline.png" />
+    <Resource Include="Resources\Images\Code Studio .png" />
+    <Resource Include="Resources\Images\Design Studio.png" />
+    <Resource Include="Resources\Images\Document Studio.png" />
+    <Resource Include="Resources\Images\Social Media Studio.png" />
+    <SplashScreen Include="Resources\Images\SplashScreen.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Resources\Images\ABMedia83Studio_2.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>

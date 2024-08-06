@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\AMB\\Git\\ABMedia83MT\\ABMedia83StudioMT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F510BB61-07D6-4C69-AA94-5191F5DC6D33}|ABMedia83StudioMT.csproj|c:\\amb\\git\\abmedia83mt\\abmedia83studiomt\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F510BB61-07D6-4C69-AA94-5191F5DC6D33}|ABMedia83StudioMT.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{F510BB61-07D6-4C69-AA94-5191F5DC6D33}|ABMedia83StudioMT.csproj|c:\\amb\\git\\abmedia83mt\\abmedia83studiomt\\controls\\mt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F510BB61-07D6-4C69-AA94-5191F5DC6D33}|ABMedia83StudioMT.csproj|solutionrelative:controls\\mt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F510BB61-07D6-4C69-AA94-5191F5DC6D33}|ABMedia83StudioMT.csproj|c:\\amb\\git\\abmedia83mt\\abmedia83studiomt\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F510BB61-07D6-4C69-AA94-5191F5DC6D33}|ABMedia83StudioMT.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F510BB61-07D6-4C69-AA94-5191F5DC6D33}|ABMedia83StudioMT.csproj|c:\\amb\\git\\abmedia83mt\\abmedia83studiomt\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F510BB61-07D6-4C69-AA94-5191F5DC6D33}|ABMedia83StudioMT.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F510BB61-07D6-4C69-AA94-5191F5DC6D33}|ABMedia83StudioMT.csproj|c:\\amb\\git\\abmedia83mt\\abmedia83studiomt\\abmedia83studiomt.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F510BB61-07D6-4C69-AA94-5191F5DC6D33}|ABMedia83StudioMT.csproj|solutionrelative:abmedia83studiomt.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F510BB61-07D6-4C69-AA94-5191F5DC6D33}|ABMedia83StudioMT.csproj|c:\\amb\\git\\abmedia83mt\\abmedia83studiomt\\controls\\studiopage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F510BB61-07D6-4C69-AA94-5191F5DC6D33}|ABMedia83StudioMT.csproj|solutionrelative:controls\\studiopage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,28 +38,53 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudioPage.cs",
+              "DocumentMoniker": "C:\\AMB\\Git\\ABMedia83MT\\ABMedia83StudioMT\\Controls\\StudioPage.cs",
+              "RelativeDocumentMoniker": "Controls\\StudioPage.cs",
+              "ToolTip": "C:\\AMB\\Git\\ABMedia83MT\\ABMedia83StudioMT\\Controls\\StudioPage.cs",
+              "RelativeToolTip": "Controls\\StudioPage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T22:30:22.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\AMB\\Git\\ABMedia83MT\\ABMedia83StudioMT\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\AMB\\Git\\ABMedia83MT\\ABMedia83StudioMT\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-06T21:44:12.067Z",
+              "Title": "mt.cs",
+              "DocumentMoniker": "C:\\AMB\\Git\\ABMedia83MT\\ABMedia83StudioMT\\Controls\\mt.cs",
+              "RelativeDocumentMoniker": "Controls\\mt.cs",
+              "ToolTip": "C:\\AMB\\Git\\ABMedia83MT\\ABMedia83StudioMT\\Controls\\mt.cs",
+              "RelativeToolTip": "Controls\\mt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T22:29:36.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\AMB\\Git\\ABMedia83MT\\ABMedia83StudioMT\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\AMB\\Git\\ABMedia83MT\\ABMedia83StudioMT\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\AMB\\Git\\ABMedia83MT\\ABMedia83StudioMT\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\AMB\\Git\\ABMedia83MT\\ABMedia83StudioMT\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T21:44:10.699Z",
+              "WhenOpened": "2024-08-06T22:07:08.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ABMedia83StudioMT",
+              "DocumentMoniker": "C:\\AMB\\Git\\ABMedia83MT\\ABMedia83StudioMT\\ABMedia83StudioMT.csproj",
+              "RelativeDocumentMoniker": "ABMedia83StudioMT.csproj",
+              "ToolTip": "C:\\AMB\\Git\\ABMedia83MT\\ABMedia83StudioMT\\ABMedia83StudioMT.csproj",
+              "RelativeToolTip": "ABMedia83StudioMT.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-06T22:04:49.483Z",
               "EditorCaption": ""
             }
           ]

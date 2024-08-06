@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\AMB\Git\ABMedia83MT\ABMedia83StudioMT\App.xaml
-11407045341
-
-6-2129201970
-198-635017904
-MainWindow.xaml;
-
-True
+17126686930
+31143058800
+33-1147904679
+2401639806009
+Components\RichTextWriter.xaml;Components\SocialMediaProject.xaml;Controls\DescriptionTags.xaml;Controls\Notes.xaml;Controls\SketchPad.xaml;Controls\SocialMediaBrowser.xaml;Controls\TextPad.xaml;Resources\Styles\DataTemp.xaml;Resources\Styles\Defaults.xaml;Resources\Styles\ReStyle.xaml;Resources\Styles\ThumbnailTypes.xaml;Resources\Styles\UI.xaml;Views\CodeStudio.xaml;Views\DesignStudio.xaml;Views\DocumentStudio.xaml;Views\MainShell.xaml;Views\SocialMediaStudio.xaml;
+resources\images\splashscreen.png
+False
 

@@ -1,0 +1,51 @@
+﻿<local:StudioControl x:Class="ABMedia83StudioMT.Controls.SketchPad"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:c="clr-namespace:Albert.Win32.Controls;assembly=Albert.Win32"
+			 xmlns:local="clr-namespace:ABMedia83StudioMT.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="auto" />
+			<RowDefinition />
+		</Grid.RowDefinitions>
+		<!--ToolBar Tray -->
+		<ToolBarTray DataContext="{StaticResource prestViewModel}" >
+			<ToolBar>
+
+
+				<ComboBox x:Name="cmbFormat" ToolTip="Pick your format" Width="150" ItemTemplate="{StaticResource presetSizes}"   />
+
+				<ComboBox x:Name="cmbTheme" ToolTip="Pick your theme" Width="150" ItemTemplate="{StaticResource drawCanvas}"  />
+
+			</ToolBar>
+			<ToolBar>
+				<c:OptionButton ToolTip="Draw" Tag="Draw" Click="canvas_Click" Source="/Resources/AppBar/paint.png" />
+				<c:OptionButton ToolTip="Erase" Tag="Erase" Click="canvas_Click" Source="/Resources/AppBar/erase.png" />
+				<c:OptionButton ToolTip="Erase by Stroke" Tag="EraseByStroke" Click="canvas_Click" Source="/Resources/AppBar/line.png" />
+				<c:OptionButton ToolTip="Select" Tag="Select" Click="canvas_Click" Source="/Resources/AppBar/edit.png" />
+			</ToolBar>
+			<ToolBar>
+				<Slider x:Name="slideBrushOpacity" ToolTip="Chose the Brush Opacity"  Maximum="255" Minimum="4" Value="8" />
+				<Slider x:Name="slideBrushSize" ToolTip="Choose the Brush Size"  Maximum="150" Minimum="3" Value="8" />
+
+			</ToolBar>
+		</ToolBarTray>
+		<c:ZoomBox Grid.Row="1" x:Name="zoomBox">
+
+			<!-- Main Canvas -->
+			<Border BorderThickness="4.4" BorderBrush="#fff" >
+			<Grid x:Name="gridCanvas" Background="#ffcccccc" Width="1080" Height="1080" >
+				<!-- Main Drawing Canvas -->
+				<c:DrawCanvas x:Name="drawCanvas" />
+			</Grid>
+			</Border>
+			
+		</c:ZoomBox>
+	
+            
+    </Grid>
+</local:StudioControl>
